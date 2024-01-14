@@ -1,10 +1,10 @@
 import './App.css';
 import elephant from "./images/elephant.jpeg";
-import DataComponent from './components/DataComponent';
+import Props from './components/DataComponent';
 
 function App() {
   // code here
-  const i = DataComponent()
+  const i = Props()
   return(
     <div className="app">
       <h1>Kalvium gallary</h1>
