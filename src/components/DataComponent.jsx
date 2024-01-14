@@ -2,7 +2,7 @@ import React from "react";
 import elephants from "../images/elephant.jpeg"
 
 const DataComponent = () =>{
-    const data = [
+    const props = [
         {
             id : 1,img : elephants
         },
@@ -16,6 +16,6 @@ const DataComponent = () =>{
             id : 4,img : elephants
         },
     ]
-    return data
+    return props
 }
 export default DataComponent;
